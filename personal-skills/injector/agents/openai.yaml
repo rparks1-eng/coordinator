@@ -1,0 +1,4 @@
+interface:
+  display_name: "Injector"
+  short_description: "Stage and deliver approved skill files"
+  default_prompt: "Use $injector to stage or deliver a hash-bound, approved skill update to its exact destination."

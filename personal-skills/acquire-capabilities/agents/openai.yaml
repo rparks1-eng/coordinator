@@ -1,0 +1,6 @@
+interface:
+  display_name: "Acquire Capabilities"
+  short_description: "Safely acquire, repair, optimize, and review skills"
+  default_prompt: "Use $acquire-capabilities as an implicit capability reflex: reuse installed abilities first, acquire only an evidenced gap, preserve gates, and resume the original task."
+policy:
+  allow_implicit_invocation: true

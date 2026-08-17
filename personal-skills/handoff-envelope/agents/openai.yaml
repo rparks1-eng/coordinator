@@ -1,0 +1,4 @@
+interface:
+  display_name: "Handoff Envelope"
+  short_description: "Stamp and verify skill artifact handoffs."
+  default_prompt: "Use $handoff-envelope to stamp this artifact for its next skill."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Personal Skill Flow Map"
+  short_description: "Map declared personal-skill interactions."
+  default_prompt: "Use $visualize-skill-flow to discover personal skills and map their declared interactions."

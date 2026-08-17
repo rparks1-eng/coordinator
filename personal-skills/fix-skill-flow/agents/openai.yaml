@@ -1,0 +1,4 @@
+interface:
+  display_name: "Fix Skill Flow"
+  short_description: "Compose skills into one gated flow"
+  default_prompt: "Use $fix-skill-flow with the skills listed after it to create one cohesive enhancement plan."

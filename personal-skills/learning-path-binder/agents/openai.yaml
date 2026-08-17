@@ -1,0 +1,4 @@
+interface:
+  display_name: "Learning Path Binder"
+  short_description: "Study paths and save one research binder"
+  default_prompt: "Use $learning-path-binder to study these learning paths and create one research binder."

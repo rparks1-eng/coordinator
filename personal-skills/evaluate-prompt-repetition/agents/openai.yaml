@@ -1,0 +1,4 @@
+interface:
+  display_name: "Evaluate Prompt Repetition"
+  short_description: "Run a controlled prompt-repetition evaluation."
+  default_prompt: "Use $evaluate-prompt-repetition to design a safe three-arm evaluation for this LLM task."

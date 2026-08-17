@@ -1,0 +1,5 @@
+interface:
+  display_name: "Web Interface Refinement"
+  short_description: "Polish, animate, and verify premium web interfaces"
+  brand_color: "#C9972F"
+  default_prompt: "Use $web-interface-refinement to audit and improve this interface with purposeful motion, accessibility, and browser verification."

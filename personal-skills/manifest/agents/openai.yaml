@@ -1,0 +1,4 @@
+interface:
+  display_name: "Manifest Letter"
+  short_description: "Format exact file delivery letters"
+  default_prompt: "Use $manifest to create a delivery letter from one file sender to one exact file recipient."

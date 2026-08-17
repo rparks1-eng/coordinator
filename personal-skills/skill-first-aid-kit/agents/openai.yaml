@@ -1,0 +1,4 @@
+interface:
+  display_name: "Skill First Aid Kit"
+  short_description: "Diagnose skills and prescribe repairs"
+  default_prompt: "Use $skill-first-aid-kit to diagnose these skill folders and create one prescription file for each."

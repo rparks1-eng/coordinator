@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Company Strategy"
+  short_description: "Validate AI workflow business opportunities"
+  default_prompt: "Use $ai-application-layer-company-strategy to test an AI business idea against real customer workflow evidence."

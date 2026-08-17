@@ -1,0 +1,4 @@
+interface:
+  display_name: "PXpress QR Campaigns"
+  short_description: "Create and safely launch owned PXpress QR codes"
+  default_prompt: "Use $manage-pxpress-qr-campaigns to create, verify, and launch a PXpress QR campaign."

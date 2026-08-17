@@ -1,0 +1,4 @@
+interface:
+  display_name: "Guard Production Deployments"
+  short_description: "Security and cost gates for AI deployments"
+  default_prompt: "Use $guard-production-deployments to review this deployment for security, abuse resistance, rollback, and cost containment."

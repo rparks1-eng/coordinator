@@ -1,0 +1,4 @@
+interface:
+  display_name: "Review Dad’s PXpress Messages"
+  short_description: "Turn new Messages context into PXpress next steps"
+  default_prompt: "Use $review-dad-pxpress-context to review up to 100 unseen messages in my father’s pinned Messages conversation, inspect safe linked material read-only, and produce a PXpress context brief without sending or changing anything."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Install Approved Skill Update"
+  short_description: "Install one approved skill candidate"
+  default_prompt: "Use $install-approved-skill-update to validate and install this approved skill-update candidate."

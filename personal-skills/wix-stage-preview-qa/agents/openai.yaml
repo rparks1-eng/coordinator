@@ -1,0 +1,4 @@
+interface:
+  display_name: "Wix Stage & Preview QA"
+  short_description: "Stage Wix drafts and verify responsive behavior"
+  default_prompt: "Use $wix-stage-preview-qa to stage this Wix app update without publishing and verify desktop, iPhone, and address search."

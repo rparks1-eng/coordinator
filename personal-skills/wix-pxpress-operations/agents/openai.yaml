@@ -1,0 +1,4 @@
+interface:
+  display_name: "Wix PXPress Operations"
+  short_description: "Wire and safely stage PXPress Wix operations"
+  default_prompt: "Use $wix-pxpress-operations to wire, verify, and stage PXPress Wix business operations safely."

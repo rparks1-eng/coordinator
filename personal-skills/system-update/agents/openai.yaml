@@ -1,0 +1,4 @@
+interface:
+  display_name: "System Update"
+  short_description: "Compile safe skill update candidates"
+  default_prompt: "Use $system-update to turn selected knowledge files into addressed, inactive skill-update candidates."

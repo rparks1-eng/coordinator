@@ -1,0 +1,4 @@
+interface:
+  display_name: "Council Deliberation"
+  short_description: "Six-seat independent review and evidence synthesis"
+  default_prompt: "Use $council-deliberation to examine this request through five independent perspectives and produce one evidence-weighted CEO synthesis."

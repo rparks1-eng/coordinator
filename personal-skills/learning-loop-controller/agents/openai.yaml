@@ -1,0 +1,4 @@
+interface:
+  display_name: "Learning Loop Controller"
+  short_description: "Route learning into governed update planning."
+  default_prompt: "Use $learning-loop-controller to route this intent into a governed update plan."

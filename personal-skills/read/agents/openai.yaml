@@ -1,0 +1,4 @@
+interface:
+  display_name: "Read Outcome"
+  short_description: "Read an explicit prior outcome file"
+  default_prompt: "Use $read to inspect the outcome file produced by the preceding prompt-flow step."

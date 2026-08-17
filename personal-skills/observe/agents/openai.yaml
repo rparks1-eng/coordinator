@@ -1,0 +1,4 @@
+interface:
+  display_name: "Observe"
+  short_description: "Record a prompt and host response"
+  default_prompt: "Use $observe to save the most recent user prompt and host response in a single view file."

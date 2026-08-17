@@ -1,0 +1,4 @@
+interface:
+  display_name: "Educator"
+  short_description: "Research and save tailored learning paths"
+  default_prompt: "Use $educator to research and create a learning path for learning <topic>."

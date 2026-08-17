@@ -1,0 +1,226 @@
+{
+  "acquire-capabilities": {
+    "commands": [
+      "python3"
+    ],
+    "environment_names": [],
+    "credentials": "not included",
+    "activation_status": "not projected"
+  },
+  "ai-application-layer-company-strategy": {
+    "commands": [],
+    "environment_names": [],
+    "credentials": "not included",
+    "activation_status": "not projected"
+  },
+  "council-deliberation": {
+    "commands": [],
+    "environment_names": [],
+    "credentials": "not included",
+    "activation_status": "not projected"
+  },
+  "educator": {
+    "commands": [],
+    "environment_names": [],
+    "credentials": "not included",
+    "activation_status": "not projected"
+  },
+  "evaluate-prompt-repetition": {
+    "commands": [],
+    "environment_names": [],
+    "credentials": "not included",
+    "activation_status": "not projected"
+  },
+  "fix-skill-flow": {
+    "commands": [
+      "python3"
+    ],
+    "environment_names": [],
+    "credentials": "not included",
+    "activation_status": "not projected"
+  },
+  "frontend-design": {
+    "commands": [],
+    "environment_names": [],
+    "credentials": "not included",
+    "activation_status": "not projected"
+  },
+  "guard-production-deployments": {
+    "commands": [],
+    "environment_names": [],
+    "credentials": "not included",
+    "activation_status": "not projected"
+  },
+  "handoff-envelope": {
+    "commands": [
+      "python3"
+    ],
+    "environment_names": [],
+    "credentials": "not included",
+    "activation_status": "not projected"
+  },
+  "icm-architect": {
+    "commands": [
+      "node"
+    ],
+    "environment_names": [],
+    "credentials": "not included",
+    "activation_status": "not projected"
+  },
+  "injector": {
+    "commands": [],
+    "environment_names": [],
+    "credentials": "not included",
+    "activation_status": "not projected"
+  },
+  "install-approved-skill-update": {
+    "commands": [
+      "python3"
+    ],
+    "environment_names": [],
+    "credentials": "not included",
+    "activation_status": "not projected"
+  },
+  "learning-loop-controller": {
+    "commands": [],
+    "environment_names": [],
+    "credentials": "not included",
+    "activation_status": "not projected"
+  },
+  "learning-path-binder": {
+    "commands": [],
+    "environment_names": [],
+    "credentials": "not included",
+    "activation_status": "not projected"
+  },
+  "librarian": {
+    "commands": [],
+    "environment_names": [],
+    "credentials": "not included",
+    "activation_status": "not projected"
+  },
+  "list-personal-skills": {
+    "commands": [
+      "python3"
+    ],
+    "environment_names": [],
+    "credentials": "not included",
+    "activation_status": "not projected"
+  },
+  "manage-pxpress-qr-campaigns": {
+    "commands": [],
+    "environment_names": [],
+    "credentials": "not included",
+    "activation_status": "not projected"
+  },
+  "manifest": {
+    "commands": [],
+    "environment_names": [],
+    "credentials": "not included",
+    "activation_status": "not projected"
+  },
+  "model-recommendation": {
+    "commands": [],
+    "environment_names": [],
+    "credentials": "not included",
+    "activation_status": "not projected"
+  },
+  "observe": {
+    "commands": [],
+    "environment_names": [],
+    "credentials": "not included",
+    "activation_status": "not projected"
+  },
+  "read": {
+    "commands": [],
+    "environment_names": [],
+    "credentials": "not included",
+    "activation_status": "not projected"
+  },
+  "resolve-youtube-video": {
+    "commands": [
+      "python3",
+      "yt-dlp"
+    ],
+    "environment_names": [],
+    "credentials": "not included",
+    "activation_status": "not projected"
+  },
+  "review-dad-pxpress-context": {
+    "commands": [
+      "python3"
+    ],
+    "environment_names": [],
+    "credentials": "not included",
+    "activation_status": "not projected"
+  },
+  "security-best-practices": {
+    "commands": [
+      "git"
+    ],
+    "environment_names": [],
+    "credentials": "not included",
+    "activation_status": "not projected"
+  },
+  "skill-first-aid-kit": {
+    "commands": [
+      "python3"
+    ],
+    "environment_names": [],
+    "credentials": "not included",
+    "activation_status": "not projected"
+  },
+  "sync-personal-skill-registry": {
+    "commands": [
+      "git",
+      "python3"
+    ],
+    "environment_names": [],
+    "credentials": "not included",
+    "activation_status": "not projected"
+  },
+  "system-update": {
+    "commands": [],
+    "environment_names": [],
+    "credentials": "not included",
+    "activation_status": "not projected"
+  },
+  "visualize-skill-flow": {
+    "commands": [
+      "node"
+    ],
+    "environment_names": [],
+    "credentials": "not included",
+    "activation_status": "not projected"
+  },
+  "web-interface-refinement": {
+    "commands": [],
+    "environment_names": [],
+    "credentials": "not included",
+    "activation_status": "not projected"
+  },
+  "wix-pxpress-operations": {
+    "commands": [],
+    "environment_names": [],
+    "credentials": "not included",
+    "activation_status": "not projected"
+  },
+  "wix-stage-preview-qa": {
+    "commands": [],
+    "environment_names": [],
+    "credentials": "not included",
+    "activation_status": "not projected"
+  },
+  "youtube-to-skill": {
+    "commands": [
+      "ollama",
+      "python3",
+      "yt-dlp"
+    ],
+    "environment_names": [
+      "GEMINI_API_KEY"
+    ],
+    "credentials": "not included",
+    "activation_status": "not projected"
+  }
+}

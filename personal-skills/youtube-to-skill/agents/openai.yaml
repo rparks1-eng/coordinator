@@ -1,0 +1,4 @@
+interface:
+  display_name: "YouTube Video Notes"
+  short_description: "Create detailed notes for YouTube videos"
+  default_prompt: "Use $youtube-to-skill to create one detailed notes file for the newest videos on this public YouTube creator page."

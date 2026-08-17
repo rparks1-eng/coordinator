@@ -1,0 +1,4 @@
+interface:
+  display_name: "List Personal Skills"
+  short_description: "Inventory personal skills for reuse and flow design"
+  default_prompt: "Use $list-personal-skills to show every personal skill available to Codex or Chat."

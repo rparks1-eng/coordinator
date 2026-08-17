@@ -1,0 +1,4 @@
+interface:
+  display_name: "Librarian"
+  short_description: "Turn binders into topic knowledge files"
+  default_prompt: "Use $librarian to synthesize these binders into topic-grouped knowledge files."

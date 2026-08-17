@@ -1,0 +1,4 @@
+interface:
+  display_name: "Model Recommendation"
+  short_description: "Route work to the right model and effort"
+  default_prompt: "Use $model-recommendation to assess this task and select the right model and reasoning effort."

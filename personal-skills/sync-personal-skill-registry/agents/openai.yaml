@@ -1,0 +1,4 @@
+interface:
+  display_name: "Sync Personal Skill Registry"
+  short_description: "Capture reviewed skills into Coordinator Git"
+  default_prompt: "Use $sync-personal-skill-registry to dry-run a reviewed personal-skill registry capture into Coordinator."

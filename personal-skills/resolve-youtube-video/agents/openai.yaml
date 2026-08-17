@@ -1,0 +1,4 @@
+interface:
+  display_name: "Resolve YouTube Video"
+  short_description: "Resolve creator pages to video links"
+  default_prompt: "Use $resolve-youtube-video to resolve the newest videos from this public YouTube creator page."
