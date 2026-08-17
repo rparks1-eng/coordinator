@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "captured_at": "2026-08-17T17:08:22.025013Z",
+  "captured_at": "2026-08-17T18:10:53.695790Z",
   "source_root": "/Users/brandonparks/.codex/skills",
   "skills": [
     {
@@ -46,6 +46,20 @@
       "duplicate_of": null
     },
     {
+      "id": "audit-personal-skill-system",
+      "declared_name": "audit-personal-skill-system",
+      "origin": "/Users/brandonparks/.codex/skills/audit-personal-skill-system",
+      "tree_sha256": "132649dd9c2cb92c9bdad97f5621209759adb6153f0dec044f668e670018efa8",
+      "files": {
+        "SKILL.md": "847ff7e22286d676e077b506814030fe2920de61ab9d625745a223b196ab500c",
+        "agents/openai.yaml": "5d81b17e14c07a5a9ae7996dd042bf17db090a543380a6885a352771b4614944",
+        "references/plan-contract.md": "c6e63515a76d2f66c06bd9ac1d9ec791a1d624b0b59ea2c1173247dfbb4fb2b6",
+        "scripts/audit_registry.py": "0cff8600c14e6916fe8110beda7622d9c5782e4b91b6a29c87f3120cfcb9545b"
+      },
+      "status": "captured",
+      "duplicate_of": null
+    },
+    {
       "id": "council-deliberation",
       "declared_name": "council-deliberation",
       "origin": "/Users/brandonparks/.codex/skills/council-deliberation",
@@ -81,6 +95,19 @@
         "SKILL.md": "daca745882fa2b467b91f87fc07bae5d4631541aa2abc84c90666d6d06bcf9ee",
         "agents/openai.yaml": "40fefb60bf35d0025968ead1e9992694c777c654d15e615df9f4011f83ff3924",
         "references/evaluation-protocol.md": "ed12fda889ac9742bb6e41e03a1f6fc36464e194e6ab9859dc6ad12a75274b73"
+      },
+      "status": "captured",
+      "duplicate_of": null
+    },
+    {
+      "id": "execute-skill-improvement-plan",
+      "declared_name": "execute-skill-improvement-plan",
+      "origin": "/Users/brandonparks/.codex/skills/execute-skill-improvement-plan",
+      "tree_sha256": "c0a38c7fb43bc26fbd2b3f69e7d95df6a3cc3df2dd971d7d94c441928e790dfe",
+      "files": {
+        "SKILL.md": "9877ccc5f0c1b9cd7fec74c2fb6b5c784f2dce9f4dcbc8ee58518745b0fb957f",
+        "agents/openai.yaml": "064bd2c192279a2878ed991b3843c80a902363253bbcf9de9fc41cd5508f468d",
+        "references/selection-contract.md": "ad04168b9f891d9d687a2b2b8ae657dd3d43301d8293c89836b6f391a6671e37"
       },
       "status": "captured",
       "duplicate_of": null
@@ -351,6 +378,21 @@
         "references/python-django-web-server-security.md": "4fb69b5d45f10e588d1a8c35cdc5f59e18910f6b46a93e2d342d90f286f8dfd2",
         "references/python-fastapi-web-server-security.md": "7383c7f4fc271190b05e562ada7e825982a2c76b6c79a9f95a1da7687b65a616",
         "references/python-flask-web-server-security.md": "9606d69190c04c167fdeac57e61297547a57b0542fd89dede36f355970446929"
+      },
+      "status": "captured",
+      "duplicate_of": null
+    },
+    {
+      "id": "skill-connectivity-optimizer",
+      "declared_name": "skill-connectivity-optimizer",
+      "origin": "/Users/brandonparks/.codex/skills/skill-connectivity-optimizer",
+      "tree_sha256": "6dccb904c6bb783ae64a86c86d6fcc3badf338d72ad152a9f6d2da5279e0f537",
+      "files": {
+        "SKILL.md": "d8769aefb40af647a972b97b9311a5c2efeb485aba5a4dc3549d2a47379ab28f",
+        "agents/openai.yaml": "d00a62ffbf46b80aac60adadec0de49e65b1f44b14edf5e567f1ba7080608d38",
+        "references/report-contract.md": "de2991117eeab463ed9f137385c1b6adcc4b060a73adc7d80ae7b44fb6b90b7e",
+        "scripts/analyze_flow_map.py": "0d20e0a563361ec1e5e2e61d0643e2c444a16eba37ddab2244021aa2b498e44c",
+        "scripts/validate_recommendation.py": "df0e72369fae112cd76c11efb222939cbc4fb22f7febf1cc56c147df3b177a9a"
       },
       "status": "captured",
       "duplicate_of": null

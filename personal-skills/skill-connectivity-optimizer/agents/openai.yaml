@@ -1,0 +1,4 @@
+interface:
+  display_name: "Skill Connectivity Optimizer"
+  short_description: "Turn skill maps into safe improvement routes"
+  default_prompt: "Use $skill-connectivity-optimizer to analyze this exact skill flow map and recommend safe connectivity improvements."

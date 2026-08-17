@@ -1,0 +1,4 @@
+interface:
+  display_name: "Audit Personal Skill System"
+  short_description: "Audit and refine the skill registry"
+  default_prompt: "Use $audit-personal-skill-system to assess the Coordinator personal-skill registry and create a council-reviewed improvement plan."

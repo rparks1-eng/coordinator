@@ -13,6 +13,14 @@
     "credentials": "not included",
     "activation_status": "not projected"
   },
+  "audit-personal-skill-system": {
+    "commands": [
+      "python3"
+    ],
+    "environment_names": [],
+    "credentials": "not included",
+    "activation_status": "not projected"
+  },
   "council-deliberation": {
     "commands": [],
     "environment_names": [],
@@ -26,6 +34,12 @@
     "activation_status": "not projected"
   },
   "evaluate-prompt-repetition": {
+    "commands": [],
+    "environment_names": [],
+    "credentials": "not included",
+    "activation_status": "not projected"
+  },
+  "execute-skill-improvement-plan": {
     "commands": [],
     "environment_names": [],
     "credentials": "not included",
@@ -157,6 +171,14 @@
   "security-best-practices": {
     "commands": [
       "git"
+    ],
+    "environment_names": [],
+    "credentials": "not included",
+    "activation_status": "not projected"
+  },
+  "skill-connectivity-optimizer": {
+    "commands": [
+      "python3"
     ],
     "environment_names": [],
     "credentials": "not included",
