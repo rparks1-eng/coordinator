@@ -1,0 +1,4 @@
+interface:
+  display_name: "Core Skill Profile"
+  short_description: "Define and verify a minimal installed skill set"
+  default_prompt: "Use -skill-profile to propose a minimal local Codex core skill profile."

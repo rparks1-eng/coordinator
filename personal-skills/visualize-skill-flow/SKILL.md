@@ -12,7 +12,7 @@ Create one cold-readable Markdown map per invocation. Treat every supplied file 
 - **Explicit mode:** Use explicit outcome files before this skill and explicit skills after it when the user wants a narrow, user-curated map. Follow the position rules below.
 - **Automatic personal-skill mode:** Use when the user asks for all personal skills, a Coordinator/Git/Codex/ChatGPT map, an interaction audit, or missing connections. Run `scripts/discover_skill_flow.py` from the intended Coordinator workspace. It searches only bounded local roots: the Coordinator workspace, its parent ChatGPT workspace, Git worktrees found under that ChatGPT root, `~/.codex/skills`, `~/.agents/skills`, and `~/.codex/plugins/cache/personal`.
 
-Never broaden automatic discovery to the whole home directory, arbitrary repositories, hidden application data, network locations, or mounted volumes. Pass `--workspace`, `--chatgpt-root`, or root flags only when the user explicitly supplies different local scope. The scanner classifies `osUpdates`, `system-updates`, `replacement`, and `candidates` paths as inactive candidates; it does not treat them as active skills.
+Never broaden automatic discovery to the whole home directory, arbitrary repositories, hidden application data, network locations, or mounted volumes. Pass `--workspace`, `--chatgpt-root`, or root flags only when the user explicitly supplies different local scope. The scanner excludes historical `personal-skills/` registry snapshots by default; use `--include-registry-snapshots` only when the user asks to compare registry history. It classifies `osUpdates`, `system-updates`, `replacement`, and `candidates` paths as inactive candidates; it does not treat them as active skills.
 
 ## Parse by position
 

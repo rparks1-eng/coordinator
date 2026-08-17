@@ -1,0 +1,4 @@
+interface:
+  display_name: "Mutation Custodian Cell"
+  short_description: "Perform exactly approved skill mutations"
+  default_prompt: "Use $mutation-custodian-cell to execute one approved mutation."

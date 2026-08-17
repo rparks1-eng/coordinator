@@ -1,0 +1,4 @@
+interface:
+  display_name: "QA Falsifier Cell"
+  short_description: "Independently test acceptance claims"
+  default_prompt: "Use $qa-falsifier-cell to falsify a proposed result."

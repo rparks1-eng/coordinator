@@ -1,0 +1,4 @@
+interface:
+  display_name: "Hygiene Reviewer Cell"
+  short_description: "Propose recoverable skill hygiene work"
+  default_prompt: "Use $hygiene-reviewer-cell to review selected paths for hygiene."

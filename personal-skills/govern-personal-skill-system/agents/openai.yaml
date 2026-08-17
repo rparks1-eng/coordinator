@@ -1,0 +1,4 @@
+interface:
+  display_name: "Govern Personal Skills"
+  short_description: "Route and improve your skill system"
+  default_prompt: "Use $govern-personal-skill-system to simplify and improve my personal skill system."

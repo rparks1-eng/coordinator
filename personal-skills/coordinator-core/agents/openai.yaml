@@ -1,0 +1,4 @@
+interface:
+  display_name: "Coordinator Core"
+  short_description: "Issue bounded role-cell work orders"
+  default_prompt: "Use $coordinator-core to issue a bounded coordinator work order."

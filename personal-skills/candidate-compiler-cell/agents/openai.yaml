@@ -1,0 +1,4 @@
+interface:
+  display_name: "Candidate Compiler Cell"
+  short_description: "Prepare inactive skill-update candidates"
+  default_prompt: "Use $candidate-compiler-cell to prepare one inactive candidate."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Evidence Research Cell"
+  short_description: "Produce bounded research evidence packets"
+  default_prompt: "Use $evidence-research-cell to research one bounded question."

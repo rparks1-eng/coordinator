@@ -1,0 +1,4 @@
+interface:
+  display_name: "Gap-to-Skill Worker"
+  short_description: "Turn one named gap into a reviewed candidate"
+  default_prompt: "Use -gap-to-skill-worker to research this named knowledge gap and prepare a reviewable candidate skill plan."

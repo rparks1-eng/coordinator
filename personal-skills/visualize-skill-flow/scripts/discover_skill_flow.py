@@ -24,7 +24,7 @@ def relative_depth(path: Path, root: Path) -> int:
     return len(path.relative_to(root).parts)
 
 
-def walk_skill_files(root: Path, max_depth: int = 12) -> list[Path]:
+def walk_skill_files(root: Path, max_depth: int = 12, include_registry_snapshots: bool = False) -> list[Path]:
     if not root.is_dir():
         return []
     matches: list[Path] = []
@@ -32,6 +32,8 @@ def walk_skill_files(root: Path, max_depth: int = 12) -> list[Path]:
         current_path = Path(current)
         depth = relative_depth(current_path, root)
         dirs[:] = [d for d in dirs if d not in SKIP_DIRS and not d.startswith(".")]
+        if not include_registry_snapshots:
+            dirs[:] = [d for d in dirs if d != "personal-skills"]
         if depth >= max_depth:
             dirs[:] = []
         if "SKILL.md" in files:
@@ -100,6 +102,7 @@ def main() -> int:
     parser.add_argument("--max-git-depth", type=int, default=5)
     parser.add_argument("--output-dir", type=Path, default=Path.home() / ".codex" / "skill-flow-maps")
     parser.add_argument("--slug", default="discovered-personal-skills")
+    parser.add_argument("--include-registry-snapshots", action="store_true")
     args = parser.parse_args()
     if args.max_git_depth < 0:
         raise SystemExit("--max-git-depth must be non-negative")
@@ -117,10 +120,10 @@ def main() -> int:
     # Give discovered Git worktrees precedence over their enclosing ChatGPT root.
     # This preserves useful provenance without widening discovery beyond that root.
     for repo in git_roots(chatgpt_root, args.max_git_depth):
-        for path in walk_skill_files(repo):
+        for path in walk_skill_files(repo, include_registry_snapshots=args.include_registry_snapshots):
             seen.setdefault(path, f"git-worktree:{repo}")
     for source, root in root_specs:
-        for path in walk_skill_files(root):
+        for path in walk_skill_files(root, include_registry_snapshots=args.include_registry_snapshots):
             seen.setdefault(path, source)
 
     skills = [parse_skill(path, source) for path, source in sorted(seen.items(), key=lambda item: str(item[0]))]
@@ -167,7 +170,7 @@ def main() -> int:
         "",
         "## Scope and boundary",
         "",
-        "Read-only discovery covered bounded Codex personal, shared-agent, personal-plugin, Coordinator workspace, ChatGPT workspace, and Git-worktree roots. Edges mean only a skill body declared a skill reference or exact skill path; they do not prove compatible inputs, execution order, authority, or automation. Skills without a declared edge are listed as disconnected, not assumed to be incompatible.",
+        "Read-only discovery covered bounded Codex personal, shared-agent, personal-plugin, Coordinator workspace, ChatGPT workspace, and Git-worktree roots. Historical `personal-skills/` registry snapshots are excluded by default and may be included only with `--include-registry-snapshots`. Edges mean only a skill body declared a skill reference or exact skill path; they do not prove compatible inputs, execution order, authority, or automation. Skills without a declared edge are listed as disconnected, not assumed to be incompatible.",
         "",
         "## Source inventory",
         "",

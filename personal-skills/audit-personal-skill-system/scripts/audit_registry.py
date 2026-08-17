@@ -5,6 +5,7 @@ from collections import defaultdict
 from pathlib import Path
 
 REF=re.compile(r'\$([a-z][a-z0-9-]*)\b')
+GENERIC_REFERENCE_PLACEHOLDERS = {"skill"}
 def fail(x): print('FAIL:',x,file=sys.stderr); raise SystemExit(1)
 def sha(p): return hashlib.sha256(p.read_bytes()).hexdigest()
 def main():
@@ -22,7 +23,7 @@ def main():
   if len(group)>1: findings.append({'kind':'name-collision','name':name,'skills':group,'status':'needs-owner-decision'})
  for tree,group in trees.items():
   if tree and len(group)>1: findings.append({'kind':'exact-duplicate','skills':group,'status':'alias-candidate'})
- unresolved={k:sorted(set(v)-ids) for k,v in refs.items() if set(v)-ids}
+ unresolved={k:sorted(unknown) for k,v in refs.items() if (unknown := set(v)-ids-GENERIC_REFERENCE_PLACEHOLDERS)}
  report={'schema_version':1,'registry_skill_count':len(records),'registry_catalog_sha256':sha(catalog_path),'findings':findings,'declared_references':{k:sorted(set(v)) for k,v in refs.items()},'unresolved_references':unresolved,'limits':'structural evidence only; no semantic redundancy, quality, or promotion decision'}
  out=a.output.resolve(); out.parent.mkdir(parents=True,exist_ok=False); out.write_text(json.dumps(report,indent=2)+'\n'); print(out)
 if __name__=='__main__': main()

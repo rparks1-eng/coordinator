@@ -1,0 +1,4 @@
+interface:
+  display_name: "Capability Binding Governor"
+  short_description: "Govern skill-to-cell capability assignments"
+  default_prompt: "Use $capability-binding-governor to evaluate one capability binding."

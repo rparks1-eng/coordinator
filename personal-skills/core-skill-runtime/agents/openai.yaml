@@ -1,0 +1,4 @@
+interface:
+  display_name: "Core Skill Runtime"
+  short_description: "Coordinate core, staged, and quarantined skills"
+  default_prompt: "Use -skill-runtime to plan a core-plus-on-demand skill workflow."

@@ -1,6 +1,6 @@
 {
-  "schema_version": 1,
-  "captured_at": "2026-08-17T18:10:53.695790Z",
+  "schema_version": 2,
+  "captured_at": "2026-08-17T22:26:14.381942Z",
   "source_root": "/Users/brandonparks/.codex/skills",
   "skills": [
     {
@@ -49,12 +49,92 @@
       "id": "audit-personal-skill-system",
       "declared_name": "audit-personal-skill-system",
       "origin": "/Users/brandonparks/.codex/skills/audit-personal-skill-system",
-      "tree_sha256": "132649dd9c2cb92c9bdad97f5621209759adb6153f0dec044f668e670018efa8",
+      "tree_sha256": "4b3ed9d619466822dbc416206b4c4858e9dd478fe2e38735d6386fe72fb86e2e",
       "files": {
         "SKILL.md": "847ff7e22286d676e077b506814030fe2920de61ab9d625745a223b196ab500c",
         "agents/openai.yaml": "5d81b17e14c07a5a9ae7996dd042bf17db090a543380a6885a352771b4614944",
         "references/plan-contract.md": "c6e63515a76d2f66c06bd9ac1d9ec791a1d624b0b59ea2c1173247dfbb4fb2b6",
-        "scripts/audit_registry.py": "0cff8600c14e6916fe8110beda7622d9c5782e4b91b6a29c87f3120cfcb9545b"
+        "scripts/audit_registry.py": "7c450646e9bb37074a3dacaaebc625c478d10644b2f7d1cd48f2a6754e8f2f07",
+        "tests/test_audit_registry.py": "f64c86e3a89f7e57f97671628e4cd45a04556fc8e7720aca27fdfe031088baf5"
+      },
+      "status": "captured",
+      "duplicate_of": null
+    },
+    {
+      "id": "audit-skill-file-composition",
+      "declared_name": "audit-skill-file-composition",
+      "origin": "/Users/brandonparks/.codex/skills/audit-skill-file-composition",
+      "tree_sha256": "5fc0384b2c8e4832e101a1a23e6298c58bdd447c99d7b5fbd9c0d1bd6ffc39d4",
+      "files": {
+        "SKILL.md": "634870522700b6a63d9c092b998ddd01ebbf71a75c5c77fa30fbc25da7f517e6",
+        "agents/openai.yaml": "38ebbb4f267b314baf4e462e3bb513928df734f6e176f29bbfae54cd8346911f",
+        "references/decision-rules.md": "4661768a9153665173f7caa1de8d3024713b354ba47dd208128bbfc9c51402dc",
+        "scripts/audit_composition.py": "44639cb50e4d99a2f9d9220f3783376f29dfd5efba992a68be29103c87692d6d"
+      },
+      "status": "captured",
+      "duplicate_of": null
+    },
+    {
+      "id": "candidate-compiler-cell",
+      "declared_name": "candidate-compiler-cell",
+      "origin": "/Users/brandonparks/.codex/skills/candidate-compiler-cell",
+      "tree_sha256": "760b37641255f6624494cbb4f511912ee13bce061509c1a729909b78bad3c40a",
+      "files": {
+        "SKILL.md": "efa892c9de919322c401073029007f060971a758070de0d01fd6798212c7fa3d",
+        "agents/openai.yaml": "e162824dc45c1230536eca06634c37288b89838e44b12e3ace6469e890fe7bc3"
+      },
+      "status": "captured",
+      "duplicate_of": null
+    },
+    {
+      "id": "capability-binding-governor",
+      "declared_name": "capability-binding-governor",
+      "origin": "/Users/brandonparks/.codex/skills/capability-binding-governor",
+      "tree_sha256": "5caacc7b0bff67ad55fd5035c132cca0859c3782d09de6fd7e148a9427491e2f",
+      "files": {
+        "SKILL.md": "c1ff8982980d3e2409ed39488b93f53df37137c1146aa4a8508fc63e6c104130",
+        "agents/openai.yaml": "2c5ea444853cbcc77669a133d35e5ddf8ffbc05e40bdac11a9ea96785773549c",
+        "references/binding-record.md": "10a532c9d3850fa6d025d178d940939d1b02c0fdf87577631166719a08f48bb0"
+      },
+      "status": "captured",
+      "duplicate_of": null
+    },
+    {
+      "id": "coordinator-core",
+      "declared_name": "coordinator-core",
+      "origin": "/Users/brandonparks/.codex/skills/coordinator-core",
+      "tree_sha256": "8f77a0b750a6356d0231bbb2fee16b19ca24a8dc1925f2d7ed953972af903d02",
+      "files": {
+        "SKILL.md": "9fde8db57f09f03b330b0e5fcec6c8e57ea8f8b7f635cfcbe1c8ec6f3481afb1",
+        "agents/openai.yaml": "23ea418e3c488ee2eb6b88b086995449e83791213bd3ae19d969308e99f3d694",
+        "references/work-order.md": "f46db7a13569f47e9ea77787ceca54359403771ecd88a945516d7853bd152ced"
+      },
+      "status": "captured",
+      "duplicate_of": null
+    },
+    {
+      "id": "core-skill-profile",
+      "declared_name": "core-skill-profile",
+      "origin": "/Users/brandonparks/.codex/skills/core-skill-profile",
+      "tree_sha256": "b7755ca78d1c321362bbf7a7b17745e84a1ea3ff7dc4e7e4c89951fa73f61058",
+      "files": {
+        "SKILL.md": "f1cece00c41f8e889b0ee1449340233f8e8ef2bb5922aacfb429c6b6cc68d691",
+        "agents/openai.yaml": "1bc2e089ac7e368c7b3ca0b8eeb2b3c6d35e602948a870842a0c7133692ff352",
+        "references/profile-schema.md": "f7493d93a1c7bd56984a10bc627657ce730fb47d3a4a25b0a21ff6c6b7c788ef",
+        "scripts/validate_profile.py": "e92c01efd9beb8f9d4c8e9e2bbad2732b88613e79d1b7fc502fa3cd598d32fdc"
+      },
+      "status": "captured",
+      "duplicate_of": null
+    },
+    {
+      "id": "core-skill-runtime",
+      "declared_name": "core-skill-runtime",
+      "origin": "/Users/brandonparks/.codex/skills/core-skill-runtime",
+      "tree_sha256": "45a69fb073434f6bdd66a0d1407d31bdc314de19536fe2f09b8a6a000cabf03d",
+      "files": {
+        "SKILL.md": "5ea20f308027924a4b5e6b609628f5caac47f16d98f88d079d2098ba5080ce0f",
+        "agents/openai.yaml": "a60c841ac2f0c4564955744b8d3e84562d9bc9891d1578c78dc41927ffb862d9",
+        "references/runtime-boundaries.md": "e0f78db0ce036a20410a572bf8a15ff347bae7e6d631b4bfb655789f005829e5"
       },
       "status": "captured",
       "duplicate_of": null
@@ -100,6 +180,18 @@
       "duplicate_of": null
     },
     {
+      "id": "evidence-research-cell",
+      "declared_name": "evidence-research-cell",
+      "origin": "/Users/brandonparks/.codex/skills/evidence-research-cell",
+      "tree_sha256": "1b56c3e07c323162f6aa61cd5edf3013c57c91d75b223d2b39a821f970154ce0",
+      "files": {
+        "SKILL.md": "a209837d967fd2666847f15870a54cef59419e04a54de04273bf9ac674863716",
+        "agents/openai.yaml": "f1efcf9ad79e575865f946a21ef81c9a63b6a9da49374b7d30ba6ea0a76ac7c7"
+      },
+      "status": "captured",
+      "duplicate_of": null
+    },
+    {
       "id": "execute-skill-improvement-plan",
       "declared_name": "execute-skill-improvement-plan",
       "origin": "/Users/brandonparks/.codex/skills/execute-skill-improvement-plan",
@@ -113,19 +205,6 @@
       "duplicate_of": null
     },
     {
-      "id": "fix-skill-flow",
-      "declared_name": "fix-skill-flow",
-      "origin": "/Users/brandonparks/.codex/skills/fix-skill-flow",
-      "tree_sha256": "9381c1e93ddf96920b06723fea728954e725032849b5231c8fb31caedc9a753d",
-      "files": {
-        "SKILL.md": "f011d1bc745d21f851dea907d2d125e0fa726368a5692d9d8530182e110e1b2a",
-        "agents/openai.yaml": "fd82e8cc09a4795940ba5508f044f0103d69f2227339cc068ecfb690b60c314a",
-        "scripts/validate_enhancement.py": "17cd4fb526bb7f55ba71161b8366978278e996c7dfaf0c0fdd6582a34bb677eb"
-      },
-      "status": "captured",
-      "duplicate_of": null
-    },
-    {
       "id": "frontend-design",
       "declared_name": "frontend-design",
       "origin": "/Users/brandonparks/.codex/skills/frontend-design",
@@ -133,6 +212,33 @@
       "files": {
         "LICENSE.txt": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
         "SKILL.md": "1608ea77fbb6fc30d13a97d12cfa8ebf31358d40f0dd97beed24829d6b3f45dd"
+      },
+      "status": "captured",
+      "duplicate_of": null
+    },
+    {
+      "id": "govern-personal-skill-system",
+      "declared_name": "govern-personal-skill-system",
+      "origin": "/Users/brandonparks/.codex/skills/govern-personal-skill-system",
+      "tree_sha256": "2b30576a65f7c7d9936ba1febc7f1d3737d4bfdf239d8518f5c742fff69c6ddc",
+      "files": {
+        "SKILL.md": "54ea46f68c1727fda8130c40a00f2a6156fef2c2e62274d5a07432d7a557e4c2",
+        "agents/openai.yaml": "d14b356872abcb6efcfd4912844fd8bcb84d3be66ff3c886414b67eac4a4de50",
+        "references/lifecycle-contract.md": "923243077665bb284a052e1e76f734944067d43d9c68d26b4614554836996e7a",
+        "scripts/init_governance_run.py": "db82a4e0734c1690fe2c753b5077976cfaf8a6f6323149f4c6c7cc559283971a"
+      },
+      "status": "captured",
+      "duplicate_of": null
+    },
+    {
+      "id": "governed-gap-to-skill-worker",
+      "declared_name": "governed-gap-to-skill-worker",
+      "origin": "/Users/brandonparks/.codex/skills/governed-gap-to-skill-worker",
+      "tree_sha256": "1c99517a391e19c3e9cd89fad01edc182c92c4a057d3056105418411cce3eee5",
+      "files": {
+        "SKILL.md": "879300949683cd0c927032f735a4f622f37ceb85d4718471e1906065d466e150",
+        "agents/openai.yaml": "048335c17c0b2aa5e97f5eb53bb3733f7c2461d226a44ef61993b6eb2c0438d5",
+        "references/episode-contract.md": "2f09b20c659339ce2dc1a84a806330b2ef7d0643bcffe10204c16f235917784e"
       },
       "status": "captured",
       "duplicate_of": null
@@ -161,6 +267,18 @@
         "agents/openai.yaml": "870921be22fe19da0c51b7a7e187282b09e4dc1d00910730c58303c6cbe12e50",
         "references/transit-envelope.md": "ca14fd761f516550701f220f7e07ed4d6615243f04a41870c78f18c82cc8f887",
         "scripts/stamp_handoff.py": "d7461e66f6beba60af0d04d62cdedac23b80bc41acca31e089d580f1487ac76d"
+      },
+      "status": "captured",
+      "duplicate_of": null
+    },
+    {
+      "id": "hygiene-reviewer-cell",
+      "declared_name": "hygiene-reviewer-cell",
+      "origin": "/Users/brandonparks/.codex/skills/hygiene-reviewer-cell",
+      "tree_sha256": "cdc624ab4845420005891126ff86a831509fa1fd1ab6788c47ecf5ada719b28e",
+      "files": {
+        "SKILL.md": "413fce53a1b0e9a7d72ac0c0cb12abda6af7889575be98320bcfe268c2bd4009",
+        "agents/openai.yaml": "ac123e64c7c74ae48bf703e6c50548b1f9d89e0c63a206af3df53dad3d8a8584"
       },
       "status": "captured",
       "duplicate_of": null
@@ -258,11 +376,11 @@
       "id": "list-personal-skills",
       "declared_name": "list-personal-skills",
       "origin": "/Users/brandonparks/.codex/skills/list-personal-skills",
-      "tree_sha256": "0145f702c938b225f2be0a998635ed3dc57de96097249abaaa724fd0b83b0f72",
+      "tree_sha256": "8a993ffba6757d0cdb28b55862ca3b974e9c510af52b43a64c9aaa463f6e7a5d",
       "files": {
-        "SKILL.md": "ff395fa359afb6bb1d36a0be615bf473e5af5e1c051125e03f7f83dab6ce4211",
-        "agents/openai.yaml": "e76414997ed34cbed73ca83728dcae3bcf751f96baec5a801acc3c41f6ed41b0",
-        "scripts/list_personal_skills.py": "fffea1aed37a50fba12b4a311728dc442bd47166ae47ee05f0e54ee1933e648e"
+        "SKILL.md": "dbe57c74a652cd2a04a70dd7e63eec241be78557ececf62837c8131860a7068d",
+        "agents/openai.yaml": "9d5c30b9f63021909c26aebd0e61531d8c73a35fdf22e47869342629b191bb6f",
+        "scripts/list_personal_skills.py": "8f16a33070002a9a1c6c85a8363ce8ff741cf59fedbbc1ec55f813c98af7be0b"
       },
       "status": "captured",
       "duplicate_of": null
@@ -305,6 +423,18 @@
       "duplicate_of": null
     },
     {
+      "id": "mutation-custodian-cell",
+      "declared_name": "mutation-custodian-cell",
+      "origin": "/Users/brandonparks/.codex/skills/mutation-custodian-cell",
+      "tree_sha256": "7b8afca499ec5fd8af2cf2675be7411c645c7ed4a330cdcf5e9e97d7ff28e9d7",
+      "files": {
+        "SKILL.md": "6197ed7e461f0980571a0cf39bbbfbbed0e11fff2d8752b24e87dbf89a2a5c8a",
+        "agents/openai.yaml": "8de0952e51ecf9df73dc4924ad6dde6d15c2f875c4e9ac78f6137d8becc85e72"
+      },
+      "status": "captured",
+      "duplicate_of": null
+    },
+    {
       "id": "observe",
       "declared_name": "observe",
       "origin": "/Users/brandonparks/.codex/skills/observe",
@@ -313,6 +443,32 @@
         "SKILL.md": "624141c639620eef33a2b7f39a8b8732c01aec8ab6fa9e0a4098d9fe296ed5e1",
         "agents/openai.yaml": "33b55f664eb88623c7a88fc4c21d78eefd4dde2b8b6515e966d9827845a15feb",
         "scripts/create_view.py": "3cc0e6a84a67aeb0ba7bffb34453715f81f47c370903a4ac8d1a96e207584ba9"
+      },
+      "status": "captured",
+      "duplicate_of": null
+    },
+    {
+      "id": "qa-falsifier-cell",
+      "declared_name": "qa-falsifier-cell",
+      "origin": "/Users/brandonparks/.codex/skills/qa-falsifier-cell",
+      "tree_sha256": "7c01a1a265653e42a5e457cef588e18ed9a59a1a715fc43e5d94229dfb154420",
+      "files": {
+        "SKILL.md": "1933ad8c091a7d9bf1752622a325fef69fcd085a0ca257e9eeea17876a1ff27e",
+        "agents/openai.yaml": "46bcde13e7771988bf12ca045faece0faf505b991579e57e1deb21d4469a8415"
+      },
+      "status": "captured",
+      "duplicate_of": null
+    },
+    {
+      "id": "quarantine-noncore-skills",
+      "declared_name": "quarantine-noncore-skills",
+      "origin": "/Users/brandonparks/.codex/skills/quarantine-noncore-skills",
+      "tree_sha256": "58fddcd2747f1b971b8f5aa092004f5cc657629e3e4710ca2237669f0e86b148",
+      "files": {
+        "SKILL.md": "dbec5db9e61e0b07e65f1ba89d84fd0ba3a948243c87d721005c6f4ceeabd6b8",
+        "agents/openai.yaml": "37b7065db8290b78f224cef99a4fbc83a9467760ac4a1e0afb05ed349f39b630",
+        "references/quarantine-contract.md": "38320955af2346b944eb5914c89751e25a3090aebd3eb91657db430029e4967a",
+        "scripts/quarantine_skills.py": "f2124362a393bfb40c737d52eab027b317b512e553dca11c7acac318bab58151"
       },
       "status": "captured",
       "duplicate_of": null
@@ -360,8 +516,35 @@
       "duplicate_of": null
     },
     {
+      "id": "route-prompt-to-skill-flow",
+      "declared_name": "route-prompt-to-skill-flow",
+      "origin": "/Users/brandonparks/.codex/skills/route-prompt-to-skill-flow",
+      "tree_sha256": "1ad961ae43eb1bbe063621aa76ca6aeb927d999caf3bdf6a5df0b086ff9809ea",
+      "files": {
+        "SKILL.md": "d6d147966aec57cabcf2dbbad49ea866e0c4b2c9b44437b91194746b6f8b1aab",
+        "agents/openai.yaml": "56594af0b175d66937e478b063a7db0145ee1a2c7f6a01624bc78306568866a6",
+        "references/routing-contract.md": "0eb9c7a5b29a8bfa1c5fd40927c052378a6252c98224a567011dc76a49fa18d1",
+        "scripts/build_skill_catalog.py": "f8cce93f7c8532e8358ec47004c39d9a97778dc9f3d976161971822117f977c4"
+      },
+      "status": "captured",
+      "duplicate_of": null
+    },
+    {
+      "id": "scaffold-governed-agent-workspace",
+      "declared_name": "scaffold-governed-agent-workspace",
+      "origin": "/Users/brandonparks/.codex/skills/scaffold-governed-agent-workspace",
+      "tree_sha256": "92710ce60acefcd4538d9594f91e32e28b3a12abe85f87975d0db7b58ed08678",
+      "files": {
+        "SKILL.md": "885dbeb3bda10450063f00ed969b661999f1d49b0356d88c6183c25b667fbe09",
+        "agents/openai.yaml": "ace6e1b821ca0bc25324c12f974b681dc246278639183c07cb382fb8879436e8",
+        "scripts/scaffold_workspace.py": "21d13939bb3c1690d2fb8744450196f1de187220705d0947c1c3af902167b836"
+      },
+      "status": "captured",
+      "duplicate_of": null
+    },
+    {
       "id": "security-best-practices",
-      "declared_name": "\"security-best-practices\"",
+      "declared_name": "security-best-practices",
       "origin": "/Users/brandonparks/.codex/skills/security-best-practices",
       "tree_sha256": "14e61cc4c91141cdb2113209c7f4ac098c6b01582579db903fbd46e9852b7798",
       "files": {
@@ -386,10 +569,10 @@
       "id": "skill-connectivity-optimizer",
       "declared_name": "skill-connectivity-optimizer",
       "origin": "/Users/brandonparks/.codex/skills/skill-connectivity-optimizer",
-      "tree_sha256": "6dccb904c6bb783ae64a86c86d6fcc3badf338d72ad152a9f6d2da5279e0f537",
+      "tree_sha256": "76d31103eb309af42c43fd8aa93bef52298ce5e977b274b18ea434adaac93a04",
       "files": {
-        "SKILL.md": "d8769aefb40af647a972b97b9311a5c2efeb485aba5a4dc3549d2a47379ab28f",
-        "agents/openai.yaml": "d00a62ffbf46b80aac60adadec0de49e65b1f44b14edf5e567f1ba7080608d38",
+        "SKILL.md": "a49cbe13394a0d5bae7ea05b588b42e70921b62b136a110bbc701506e2e5c24e",
+        "agents/openai.yaml": "fc6b8af6d1d4612f4dcb065d762241cf0a5ce6d9f0cf310e5ffd70ba43392e81",
         "references/report-contract.md": "de2991117eeab463ed9f137385c1b6adcc4b060a73adc7d80ae7b44fb6b90b7e",
         "scripts/analyze_flow_map.py": "0d20e0a563361ec1e5e2e61d0643e2c444a16eba37ddab2244021aa2b498e44c",
         "scripts/validate_recommendation.py": "df0e72369fae112cd76c11efb222939cbc4fb22f7febf1cc56c147df3b177a9a"
@@ -411,15 +594,41 @@
       "duplicate_of": null
     },
     {
+      "id": "skill-librarian-cell",
+      "declared_name": "skill-librarian-cell",
+      "origin": "/Users/brandonparks/.codex/skills/skill-librarian-cell",
+      "tree_sha256": "72c952b018739168192eb033b8204b933636c863e7fbbf7b59f4c2800a2c8d8c",
+      "files": {
+        "SKILL.md": "235a5ab33e5369c8821419e2299443befdf395908701665fa33b92c38fbd963b",
+        "agents/openai.yaml": "fc259ef445f22b3abd68e7ee2a3d0be328939c52322397581712a75675184717"
+      },
+      "status": "captured",
+      "duplicate_of": null
+    },
+    {
+      "id": "stage-git-skill-package",
+      "declared_name": "stage-git-skill-package",
+      "origin": "/Users/brandonparks/.codex/skills/stage-git-skill-package",
+      "tree_sha256": "bc817f3c28a73e2899e44f70a0dc29ec11dc2765cf2b23331904b81d35d415bf",
+      "files": {
+        "SKILL.md": "d1008d133f1f5d137b05e6fb9637b8e0a3534691e8234c676dd7bccb1fcd9d89",
+        "agents/openai.yaml": "f8d1cb65185be1baaf12a2357ef0dfa22d87de755d5a4eab868af7998fb8658c",
+        "references/staging-contract.md": "f4023c96ef8c389b49b5b1becccf7e1340c5acbeeb6bb5ce8f599c592484cea9",
+        "scripts/stage_package.py": "f4765f28cb0939a3681e72ed08bcfd047a74d20af88514ce222d9e412721de13"
+      },
+      "status": "captured",
+      "duplicate_of": null
+    },
+    {
       "id": "sync-personal-skill-registry",
       "declared_name": "sync-personal-skill-registry",
       "origin": "/Users/brandonparks/.codex/skills/sync-personal-skill-registry",
-      "tree_sha256": "1a342ec4c4cedf90d7f9241c6c8a913cff20da583642c2dba89a1645daff9365",
+      "tree_sha256": "1c841bde746f56d5edc35d424a7134fe305f44ef6d8b58d0b0030b07de38d898",
       "files": {
-        "SKILL.md": "e88d888c62b818b0aa99a6814d549871b668526d379ae5aa3a0ecc76b35176f1",
-        "agents/openai.yaml": "4a5114feb3230f99fed4079d39e55a66c7058119554ef4683753be94c252c928",
+        "SKILL.md": "f0dd9d4e5317b6857bad151d017c53e355228abbb228c62facfd578ef7f31c29",
+        "agents/openai.yaml": "8e7add3b1d713d22dcd32aa5888cc1c5edd32a86678b483e916634e819341aa8",
         "references/registry-policy.md": "8fb99678d89fc47c384172968f8963128a73c37dc2ec9c7118d18a25e0295476",
-        "scripts/sync_registry.py": "95ae79592cd7401c8bd1ff7bf86628db0d9020c2fc95f5c2efd2800218754714"
+        "scripts/sync_registry.py": "4efbb621d52cd16ee764f32ec2a1b606b6d46c922f6d147a1d0bf09b02e7ebb4"
       },
       "status": "captured",
       "duplicate_of": null
@@ -442,11 +651,11 @@
       "id": "visualize-skill-flow",
       "declared_name": "visualize-skill-flow",
       "origin": "/Users/brandonparks/.codex/skills/visualize-skill-flow",
-      "tree_sha256": "e277259272c53e433076f17ead396d3854194a72f2e51bc72291989ecea42953",
+      "tree_sha256": "b3e62d282cf9b39e9bf156a41501b55d41e3c6d674b254d1ba4579ee3a9a02aa",
       "files": {
-        "SKILL.md": "1ac35237ad2569e49636bc71d034b39f8c534a9b85ee8b9979d6daefd0f89c57",
-        "agents/openai.yaml": "eae7af33f016d5ab69c5c7e9579d94dca3744952dfd96254a157eef5e9af335f",
-        "scripts/discover_skill_flow.py": "bd2c748d285c1c185f4e1c0fdf791837eb05e8fb4a83cb71079265915cfbe003",
+        "SKILL.md": "e0dfd8e99efeff373501d30d522063299e703127498b0c7f30825bcfdba94007",
+        "agents/openai.yaml": "50fa3f0688dcc7fef07280d1395b3871af1cabe0d85a526f580b31d60e91df1f",
+        "scripts/discover_skill_flow.py": "e6d393c6af8257b361a7d23499dc88b75689f107706ff263c3f3d9b93863b997",
         "scripts/render_flow.py": "e2c41e6f6bba45aab4cd4728f25b997b7fb20dcf40758119c252536fcd610723"
       },
       "status": "captured",
@@ -493,6 +702,18 @@
         "agents/openai.yaml": "b3d3b16f9386eb85fc5348393023011f2c0c380a51afe2c25b169078022a544b",
         "references/pxpress-acceptance-checklist.md": "0fbfaf1e066aa605aa80e931edc8e57d88614a623b3184562a809919a5c0e46e",
         "scripts/sync_embedded_html.mjs": "7da2b955d2be0ff1c00a175ab5ecc48ab63a6f6f2ed666ebf270935e88d8340d"
+      },
+      "status": "captured",
+      "duplicate_of": null
+    },
+    {
+      "id": "workflow-architect-cell",
+      "declared_name": "workflow-architect-cell",
+      "origin": "/Users/brandonparks/.codex/skills/workflow-architect-cell",
+      "tree_sha256": "747d612026a06280e78417e8880a483e8b2c468219925593e334bad992c4daa0",
+      "files": {
+        "SKILL.md": "d1130facaae524ab89c62e1e4742d8059470ef1d191c27fff3cfe52d6f8c778c",
+        "agents/openai.yaml": "7c4854db3ca5aeab3549267edab4406227f7baf2ec2fc133db30db72225bba47"
       },
       "status": "captured",
       "duplicate_of": null

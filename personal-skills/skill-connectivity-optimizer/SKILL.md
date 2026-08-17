@@ -54,7 +54,7 @@ Use these advisory destinations without invoking them:
 | Observed symptom | Recommended owner |
 | --- | --- |
 | Duplicate, registry-wide, or active-identity ambiguity | `$audit-personal-skill-system` or owner selection |
-| Explicit owner-selected chain needs a cohesive design | `$fix-skill-flow` |
+| Explicit owner-selected chain needs a cohesive design | `$govern-personal-skill-system` in `integration-design` mode |
 | Malformed or broken local contract | `$skill-first-aid-kit` |
 | Missing executable or verifier | `$acquire-capabilities` |
 | Bounded research-to-knowledge improvement | `$learning-loop-controller` |
