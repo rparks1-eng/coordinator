@@ -1,0 +1,4 @@
+interface:
+  display_name: "Git Skill Package Stager"
+  short_description: "Verify and stage a pinned Git skill package"
+  default_prompt: "Use -git-skill-package to dry-run a pinned skill package staging request."

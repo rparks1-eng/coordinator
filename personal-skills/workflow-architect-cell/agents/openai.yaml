@@ -1,0 +1,4 @@
+interface:
+  display_name: "Workflow Architect Cell"
+  short_description: "Design bounded workflow architectures"
+  default_prompt: "Use $workflow-architect-cell to design a bounded workflow."

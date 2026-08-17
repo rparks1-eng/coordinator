@@ -1,0 +1,4 @@
+interface:
+  display_name: "Skill Librarian Cell"
+  short_description: "Audit skill structure and dependencies"
+  default_prompt: "Use $skill-librarian-cell to audit selected skill files."

@@ -1,3 +1,3 @@
 # Personal skill registry
 
-Portable source snapshots and declarative adapter requirements. See `catalog.json`; this directory does not activate skills.
+Portable source snapshots and declarative adapter requirements. This directory does not activate skills.

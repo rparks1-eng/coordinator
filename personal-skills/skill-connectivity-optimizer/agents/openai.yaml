@@ -1,0 +1,4 @@
+interface:
+  display_name: "Optimize Skill Connectivity"
+  short_description: "Assess and improve skill handoffs"
+  default_prompt: "Use $skill-connectivity-optimizer to assess the connectivity of my selected skill flow."

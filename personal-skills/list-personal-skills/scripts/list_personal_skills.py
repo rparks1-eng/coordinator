@@ -140,9 +140,9 @@ def render_markdown(
     output.extend(
         [
             "",
-            "## Fix-skill-flow-ready targets",
+            "## Governance-ready targets",
             "",
-            "Supply only the desired exact paths after `$fix-skill-flow`; each line below is an unambiguous target:",
+            "Supply only the desired exact paths to `$govern-personal-skill-system`; each line below is an unambiguous target:",
             "",
         ]
     )

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Skill Composition Auditor"
+  short_description: "Find duplication and propose safe consolidation"
+  default_prompt: "Use -skill-file-composition to audit these explicit skill roots and propose a reversible cleanup plan."

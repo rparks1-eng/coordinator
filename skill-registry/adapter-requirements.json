@@ -1,224 +1,2444 @@
 {
   "acquire-capabilities": {
-    "commands": [
-      "python3"
+    "findings": [
+      {
+        "file": "SKILL.md",
+        "line": 116,
+        "commands": [
+          "python3"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/npm-public-registry-policy.md",
+        "line": 1,
+        "commands": [
+          "npm"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/npm-public-registry-policy.md",
+        "line": 7,
+        "commands": [
+          "npm"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/npm-public-registry-policy.md",
+        "line": 18,
+        "commands": [
+          "npm"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/npm-public-registry-policy.md",
+        "line": 38,
+        "commands": [
+          "npm"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/npm-public-registry-policy.md",
+        "line": 42,
+        "commands": [
+          "npm"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/npm-public-registry-policy.md",
+        "line": 44,
+        "commands": [
+          "npm"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/npm-public-registry-policy.md",
+        "line": 46,
+        "commands": [
+          "npm"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "scripts/init_capability_run.py",
+        "line": 1,
+        "commands": [
+          "python3"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "scripts/inventory_skills.py",
+        "line": 1,
+        "commands": [
+          "python3"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "scripts/security_preflight.py",
+        "line": 1,
+        "commands": [
+          "python3"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "scripts/skill_efficiency_audit.py",
+        "line": 1,
+        "commands": [
+          "python3"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "scripts/skill_first_aid.py",
+        "line": 1,
+        "commands": [
+          "python3"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "scripts/skill_snapshot.py",
+        "line": 1,
+        "commands": [
+          "python3"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "scripts/source_preflight.py",
+        "line": 1,
+        "commands": [
+          "python3"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      }
     ],
-    "environment_names": [],
     "credentials": "not included",
     "activation_status": "not projected"
   },
   "ai-application-layer-company-strategy": {
-    "commands": [],
-    "environment_names": [],
+    "findings": [],
+    "credentials": "not included",
+    "activation_status": "not projected"
+  },
+  "audit-personal-skill-system": {
+    "findings": [
+      {
+        "file": "SKILL.md",
+        "line": 17,
+        "commands": [
+          "python3"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "scripts/audit_registry.py",
+        "line": 1,
+        "commands": [
+          "python3"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "tests/test_audit_registry.py",
+        "line": 1,
+        "commands": [
+          "python3"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      }
+    ],
+    "credentials": "not included",
+    "activation_status": "not projected"
+  },
+  "audit-skill-file-composition": {
+    "findings": [
+      {
+        "file": "SKILL.md",
+        "line": 17,
+        "commands": [
+          "python3"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "scripts/audit_composition.py",
+        "line": 1,
+        "commands": [
+          "python3"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      }
+    ],
+    "credentials": "not included",
+    "activation_status": "not projected"
+  },
+  "candidate-compiler-cell": {
+    "findings": [],
+    "credentials": "not included",
+    "activation_status": "not projected"
+  },
+  "capability-binding-governor": {
+    "findings": [],
+    "credentials": "not included",
+    "activation_status": "not projected"
+  },
+  "coordinator-core": {
+    "findings": [],
+    "credentials": "not included",
+    "activation_status": "not projected"
+  },
+  "core-skill-profile": {
+    "findings": [
+      {
+        "file": "scripts/validate_profile.py",
+        "line": 1,
+        "commands": [
+          "python3"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      }
+    ],
+    "credentials": "not included",
+    "activation_status": "not projected"
+  },
+  "core-skill-runtime": {
+    "findings": [],
     "credentials": "not included",
     "activation_status": "not projected"
   },
   "council-deliberation": {
-    "commands": [],
-    "environment_names": [],
+    "findings": [
+      {
+        "file": "scripts/init_council_run.py",
+        "line": 1,
+        "commands": [
+          "python3"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      }
+    ],
     "credentials": "not included",
     "activation_status": "not projected"
   },
   "educator": {
-    "commands": [],
-    "environment_names": [],
+    "findings": [
+      {
+        "file": "scripts/create_learning_path.py",
+        "line": 1,
+        "commands": [
+          "python3"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      }
+    ],
     "credentials": "not included",
     "activation_status": "not projected"
   },
   "evaluate-prompt-repetition": {
-    "commands": [],
-    "environment_names": [],
+    "findings": [],
     "credentials": "not included",
     "activation_status": "not projected"
   },
-  "fix-skill-flow": {
-    "commands": [
-      "python3"
-    ],
-    "environment_names": [],
+  "evidence-research-cell": {
+    "findings": [],
+    "credentials": "not included",
+    "activation_status": "not projected"
+  },
+  "execute-skill-improvement-plan": {
+    "findings": [],
     "credentials": "not included",
     "activation_status": "not projected"
   },
   "frontend-design": {
-    "commands": [],
-    "environment_names": [],
+    "findings": [],
+    "credentials": "not included",
+    "activation_status": "not projected"
+  },
+  "govern-personal-skill-system": {
+    "findings": [
+      {
+        "file": "SKILL.md",
+        "line": 23,
+        "commands": [
+          "python3"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "scripts/init_governance_run.py",
+        "line": 1,
+        "commands": [
+          "python3"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      }
+    ],
+    "credentials": "not included",
+    "activation_status": "not projected"
+  },
+  "governed-gap-to-skill-worker": {
+    "findings": [],
     "credentials": "not included",
     "activation_status": "not projected"
   },
   "guard-production-deployments": {
-    "commands": [],
-    "environment_names": [],
+    "findings": [],
     "credentials": "not included",
     "activation_status": "not projected"
   },
   "handoff-envelope": {
-    "commands": [
-      "python3"
+    "findings": [
+      {
+        "file": "SKILL.md",
+        "line": 15,
+        "commands": [
+          "python3"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "SKILL.md",
+        "line": 25,
+        "commands": [
+          "python3"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "scripts/stamp_handoff.py",
+        "line": 1,
+        "commands": [
+          "python3"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      }
     ],
-    "environment_names": [],
+    "credentials": "not included",
+    "activation_status": "not projected"
+  },
+  "hygiene-reviewer-cell": {
+    "findings": [],
     "credentials": "not included",
     "activation_status": "not projected"
   },
   "icm-architect": {
-    "commands": [
-      "node"
+    "findings": [
+      {
+        "file": "README.md",
+        "line": 38,
+        "commands": [
+          "node"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "SKILL.md",
+        "line": 10,
+        "commands": [
+          "node"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "SKILL.md",
+        "line": 89,
+        "commands": [
+          "node"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "assets/templates/schema.md",
+        "line": 10,
+        "commands": [
+          "node"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/forms.md",
+        "line": 126,
+        "commands": [
+          "node"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/forms.md",
+        "line": 136,
+        "commands": [
+          "node"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/forms.md",
+        "line": 138,
+        "commands": [
+          "node"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/forms.md",
+        "line": 142,
+        "commands": [
+          "node"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      }
     ],
-    "environment_names": [],
     "credentials": "not included",
     "activation_status": "not projected"
   },
   "injector": {
-    "commands": [],
-    "environment_names": [],
+    "findings": [
+      {
+        "file": "scripts/stage_delivery.py",
+        "line": 1,
+        "commands": [
+          "python3"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      }
+    ],
     "credentials": "not included",
     "activation_status": "not projected"
   },
   "install-approved-skill-update": {
-    "commands": [
-      "python3"
+    "findings": [
+      {
+        "file": "SKILL.md",
+        "line": 26,
+        "commands": [
+          "python3"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "SKILL.md",
+        "line": 33,
+        "commands": [
+          "python3"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "SKILL.md",
+        "line": 43,
+        "commands": [
+          "python3"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "scripts/install_approved_skill_update.py",
+        "line": 1,
+        "commands": [
+          "python3"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      }
     ],
-    "environment_names": [],
     "credentials": "not included",
     "activation_status": "not projected"
   },
   "learning-loop-controller": {
-    "commands": [],
-    "environment_names": [],
+    "findings": [
+      {
+        "file": "scripts/init_learning_loop.py",
+        "line": 1,
+        "commands": [
+          "python3"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      }
+    ],
     "credentials": "not included",
     "activation_status": "not projected"
   },
   "learning-path-binder": {
-    "commands": [],
-    "environment_names": [],
+    "findings": [
+      {
+        "file": "scripts/create_binder.py",
+        "line": 1,
+        "commands": [
+          "python3"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      }
+    ],
     "credentials": "not included",
     "activation_status": "not projected"
   },
   "librarian": {
-    "commands": [],
-    "environment_names": [],
+    "findings": [
+      {
+        "file": "scripts/create_knowledge_file.py",
+        "line": 1,
+        "commands": [
+          "python3"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      }
+    ],
     "credentials": "not included",
     "activation_status": "not projected"
   },
   "list-personal-skills": {
-    "commands": [
-      "python3"
+    "findings": [
+      {
+        "file": "SKILL.md",
+        "line": 15,
+        "commands": [
+          "python3"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "scripts/list_personal_skills.py",
+        "line": 1,
+        "commands": [
+          "python3"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      }
     ],
-    "environment_names": [],
     "credentials": "not included",
     "activation_status": "not projected"
   },
   "manage-pxpress-qr-campaigns": {
-    "commands": [],
-    "environment_names": [],
+    "findings": [],
     "credentials": "not included",
     "activation_status": "not projected"
   },
   "manifest": {
-    "commands": [],
-    "environment_names": [],
+    "findings": [
+      {
+        "file": "scripts/create_letter.py",
+        "line": 1,
+        "commands": [
+          "python3"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      }
+    ],
     "credentials": "not included",
     "activation_status": "not projected"
   },
   "model-recommendation": {
-    "commands": [],
-    "environment_names": [],
+    "findings": [],
+    "credentials": "not included",
+    "activation_status": "not projected"
+  },
+  "mutation-custodian-cell": {
+    "findings": [],
     "credentials": "not included",
     "activation_status": "not projected"
   },
   "observe": {
-    "commands": [],
-    "environment_names": [],
+    "findings": [
+      {
+        "file": "scripts/create_view.py",
+        "line": 1,
+        "commands": [
+          "python3"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      }
+    ],
+    "credentials": "not included",
+    "activation_status": "not projected"
+  },
+  "qa-falsifier-cell": {
+    "findings": [],
+    "credentials": "not included",
+    "activation_status": "not projected"
+  },
+  "quarantine-noncore-skills": {
+    "findings": [
+      {
+        "file": "SKILL.md",
+        "line": 17,
+        "commands": [
+          "python3"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "scripts/quarantine_skills.py",
+        "line": 1,
+        "commands": [
+          "python3"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      }
+    ],
     "credentials": "not included",
     "activation_status": "not projected"
   },
   "read": {
-    "commands": [],
-    "environment_names": [],
+    "findings": [
+      {
+        "file": "scripts/read_outcome.py",
+        "line": 1,
+        "commands": [
+          "python3"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      }
+    ],
     "credentials": "not included",
     "activation_status": "not projected"
   },
   "resolve-youtube-video": {
-    "commands": [
-      "python3",
-      "yt-dlp"
+    "findings": [
+      {
+        "file": "SKILL.md",
+        "line": 14,
+        "commands": [
+          "python3"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "SKILL.md",
+        "line": 20,
+        "commands": [
+          "yt-dlp"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "scripts/resolve_youtube_video.py",
+        "line": 1,
+        "commands": [
+          "python3"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "scripts/resolve_youtube_video.py",
+        "line": 73,
+        "commands": [
+          "python3",
+          "yt-dlp"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      }
     ],
-    "environment_names": [],
     "credentials": "not included",
     "activation_status": "not projected"
   },
   "review-dad-pxpress-context": {
-    "commands": [
-      "python3"
+    "findings": [
+      {
+        "file": "SKILL.md",
+        "line": 78,
+        "commands": [
+          "python3"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "SKILL.md",
+        "line": 79,
+        "commands": [
+          "python3"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "SKILL.md",
+        "line": 80,
+        "commands": [
+          "python3"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "SKILL.md",
+        "line": 81,
+        "commands": [
+          "python3"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/testing.md",
+        "line": 9,
+        "commands": [
+          "python3"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "scripts/checkpoint.py",
+        "line": 1,
+        "commands": [
+          "python3"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      }
     ],
-    "environment_names": [],
+    "credentials": "not included",
+    "activation_status": "not projected"
+  },
+  "route-prompt-to-skill-flow": {
+    "findings": [
+      {
+        "file": "scripts/build_skill_catalog.py",
+        "line": 1,
+        "commands": [
+          "python3"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      }
+    ],
+    "credentials": "not included",
+    "activation_status": "not projected"
+  },
+  "scaffold-governed-agent-workspace": {
+    "findings": [
+      {
+        "file": "SKILL.md",
+        "line": 21,
+        "commands": [
+          "python3"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "SKILL.md",
+        "line": 34,
+        "commands": [
+          "python3"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "scripts/scaffold_workspace.py",
+        "line": 1,
+        "commands": [
+          "python3"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      }
+    ],
     "credentials": "not included",
     "activation_status": "not projected"
   },
   "security-best-practices": {
-    "commands": [
-      "git"
+    "findings": [
+      {
+        "file": "SKILL.md",
+        "line": 72,
+        "commands": [
+          "git"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/golang-general-backend-security.md",
+        "line": 188,
+        "commands": [],
+        "environment_names": [
+          "API_KEY"
+        ],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/javascript-express-web-server-security.md",
+        "line": 59,
+        "commands": [
+          "npm"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/javascript-express-web-server-security.md",
+        "line": 118,
+        "commands": [
+          "npm"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/javascript-express-web-server-security.md",
+        "line": 919,
+        "commands": [
+          "npm"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/javascript-express-web-server-security.md",
+        "line": 926,
+        "commands": [
+          "npm"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/javascript-express-web-server-security.md",
+        "line": 932,
+        "commands": [
+          "npm"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/javascript-express-web-server-security.md",
+        "line": 938,
+        "commands": [
+          "npm"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/javascript-express-web-server-security.md",
+        "line": 947,
+        "commands": [
+          "npm"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/javascript-express-web-server-security.md",
+        "line": 1000,
+        "commands": [
+          "node"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/javascript-express-web-server-security.md",
+        "line": 1005,
+        "commands": [
+          "npm"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/javascript-express-web-server-security.md",
+        "line": 1091,
+        "commands": [
+          "npm"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/javascript-express-web-server-security.md",
+        "line": 1118,
+        "commands": [
+          "npm"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/javascript-express-web-server-security.md",
+        "line": 1121,
+        "commands": [
+          "npm"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/javascript-express-web-server-security.md",
+        "line": 1138,
+        "commands": [
+          "npm"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/javascript-express-web-server-security.md",
+        "line": 1156,
+        "commands": [
+          "npm"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/javascript-jquery-web-frontend-security.md",
+        "line": 33,
+        "commands": [
+          "node"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/javascript-jquery-web-frontend-security.md",
+        "line": 131,
+        "commands": [
+          "npm"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/javascript-jquery-web-frontend-security.md",
+        "line": 212,
+        "commands": [
+          "npm"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/javascript-jquery-web-frontend-security.md",
+        "line": 246,
+        "commands": [
+          "node"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/javascript-jquery-web-frontend-security.md",
+        "line": 304,
+        "commands": [
+          "node"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/javascript-jquery-web-frontend-security.md",
+        "line": 346,
+        "commands": [
+          "node"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/javascript-typescript-nextjs-web-server-security.md",
+        "line": 228,
+        "commands": [],
+        "environment_names": [
+          "NEXT_PUBLIC_API_KEY"
+        ],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/javascript-typescript-nextjs-web-server-security.md",
+        "line": 233,
+        "commands": [
+          "git"
+        ],
+        "environment_names": [
+          "API_KEY"
+        ],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/javascript-typescript-react-web-frontend-security.md",
+        "line": 841,
+        "commands": [
+          "npm"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/javascript-typescript-react-web-frontend-security.md",
+        "line": 842,
+        "commands": [
+          "npm"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/javascript-typescript-react-web-frontend-security.md",
+        "line": 847,
+        "commands": [
+          "npm"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/javascript-typescript-react-web-frontend-security.md",
+        "line": 854,
+        "commands": [
+          "npm"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/javascript-typescript-react-web-frontend-security.md",
+        "line": 859,
+        "commands": [
+          "npm"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/javascript-typescript-react-web-frontend-security.md",
+        "line": 865,
+        "commands": [
+          "npm"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/javascript-typescript-react-web-frontend-security.md",
+        "line": 866,
+        "commands": [
+          "npm"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/javascript-typescript-react-web-frontend-security.md",
+        "line": 867,
+        "commands": [
+          "npm"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/javascript-typescript-react-web-frontend-security.md",
+        "line": 908,
+        "commands": [
+          "npm"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/javascript-typescript-react-web-frontend-security.md",
+        "line": 957,
+        "commands": [
+          "npm"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/javascript-typescript-react-web-frontend-security.md",
+        "line": 958,
+        "commands": [
+          "npm"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/javascript-typescript-react-web-frontend-security.md",
+        "line": 987,
+        "commands": [
+          "npm"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/javascript-typescript-react-web-frontend-security.md",
+        "line": 988,
+        "commands": [
+          "npm"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/javascript-typescript-vue-web-frontend-security.md",
+        "line": 120,
+        "commands": [
+          "npm"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/javascript-typescript-vue-web-frontend-security.md",
+        "line": 126,
+        "commands": [
+          "npm"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/javascript-typescript-vue-web-frontend-security.md",
+        "line": 131,
+        "commands": [
+          "npm"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/javascript-typescript-vue-web-frontend-security.md",
+        "line": 186,
+        "commands": [],
+        "environment_names": [
+          "VITE_API_KEY"
+        ],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/javascript-typescript-vue-web-frontend-security.md",
+        "line": 192,
+        "commands": [],
+        "environment_names": [
+          "API_KEY",
+          "PRIVATE_KEY"
+        ],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/javascript-typescript-vue-web-frontend-security.md",
+        "line": 668,
+        "commands": [
+          "npm"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/javascript-typescript-vue-web-frontend-security.md",
+        "line": 710,
+        "commands": [
+          "npm"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/javascript-typescript-vue-web-frontend-security.md",
+        "line": 713,
+        "commands": [],
+        "environment_names": [
+          "API_KEY"
+        ],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/python-django-web-server-security.md",
+        "line": 14,
+        "commands": [],
+        "environment_names": [
+          "SECRET_KEY"
+        ],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/python-django-web-server-security.md",
+        "line": 105,
+        "commands": [],
+        "environment_names": [
+          "SECRET_KEY"
+        ],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/python-django-web-server-security.md",
+        "line": 112,
+        "commands": [],
+        "environment_names": [
+          "SECRET_KEY"
+        ],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/python-django-web-server-security.md",
+        "line": 180,
+        "commands": [],
+        "environment_names": [
+          "SECRET_KEY"
+        ],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/python-django-web-server-security.md",
+        "line": 186,
+        "commands": [],
+        "environment_names": [
+          "SECRET_KEY"
+        ],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/python-django-web-server-security.md",
+        "line": 193,
+        "commands": [],
+        "environment_names": [
+          "SECRET_KEY"
+        ],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/python-django-web-server-security.md",
+        "line": 194,
+        "commands": [],
+        "environment_names": [
+          "SECRET_KEY"
+        ],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/python-django-web-server-security.md",
+        "line": 199,
+        "commands": [],
+        "environment_names": [
+          "SECRET_KEY"
+        ],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/python-django-web-server-security.md",
+        "line": 206,
+        "commands": [],
+        "environment_names": [
+          "SECRET_KEY"
+        ],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/python-django-web-server-security.md",
+        "line": 759,
+        "commands": [],
+        "environment_names": [
+          "SECRET_KEY"
+        ],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/python-django-web-server-security.md",
+        "line": 811,
+        "commands": [],
+        "environment_names": [
+          "SECRET_KEY"
+        ],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/python-fastapi-web-server-security.md",
+        "line": 122,
+        "commands": [],
+        "environment_names": [
+          "FASTAPI"
+        ],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/python-fastapi-web-server-security.md",
+        "line": 151,
+        "commands": [],
+        "environment_names": [
+          "FASTAPI"
+        ],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/python-fastapi-web-server-security.md",
+        "line": 177,
+        "commands": [],
+        "environment_names": [
+          "FASTAPI",
+          "OPENAPI"
+        ],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/python-fastapi-web-server-security.md",
+        "line": 203,
+        "commands": [],
+        "environment_names": [
+          "FASTAPI"
+        ],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/python-fastapi-web-server-security.md",
+        "line": 229,
+        "commands": [],
+        "environment_names": [
+          "FASTAPI"
+        ],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/python-fastapi-web-server-security.md",
+        "line": 254,
+        "commands": [],
+        "environment_names": [
+          "FASTAPI"
+        ],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/python-fastapi-web-server-security.md",
+        "line": 281,
+        "commands": [],
+        "environment_names": [
+          "FASTAPI"
+        ],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/python-fastapi-web-server-security.md",
+        "line": 309,
+        "commands": [],
+        "environment_names": [
+          "FASTAPI"
+        ],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/python-fastapi-web-server-security.md",
+        "line": 335,
+        "commands": [],
+        "environment_names": [
+          "FASTAPI"
+        ],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/python-fastapi-web-server-security.md",
+        "line": 362,
+        "commands": [],
+        "environment_names": [
+          "FASTAPI"
+        ],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/python-fastapi-web-server-security.md",
+        "line": 387,
+        "commands": [],
+        "environment_names": [
+          "FASTAPI"
+        ],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/python-fastapi-web-server-security.md",
+        "line": 416,
+        "commands": [],
+        "environment_names": [
+          "FASTAPI"
+        ],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/python-fastapi-web-server-security.md",
+        "line": 442,
+        "commands": [],
+        "environment_names": [
+          "FASTAPI"
+        ],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/python-fastapi-web-server-security.md",
+        "line": 467,
+        "commands": [],
+        "environment_names": [
+          "FASTAPI"
+        ],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/python-fastapi-web-server-security.md",
+        "line": 497,
+        "commands": [],
+        "environment_names": [
+          "FASTAPI"
+        ],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/python-fastapi-web-server-security.md",
+        "line": 527,
+        "commands": [],
+        "environment_names": [
+          "FASTAPI"
+        ],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/python-fastapi-web-server-security.md",
+        "line": 557,
+        "commands": [],
+        "environment_names": [
+          "FASTAPI"
+        ],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/python-fastapi-web-server-security.md",
+        "line": 587,
+        "commands": [],
+        "environment_names": [
+          "FASTAPI"
+        ],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/python-fastapi-web-server-security.md",
+        "line": 612,
+        "commands": [],
+        "environment_names": [
+          "FASTAPI"
+        ],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/python-fastapi-web-server-security.md",
+        "line": 639,
+        "commands": [],
+        "environment_names": [
+          "FASTAPI"
+        ],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/python-fastapi-web-server-security.md",
+        "line": 665,
+        "commands": [],
+        "environment_names": [
+          "FASTAPI"
+        ],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/python-fastapi-web-server-security.md",
+        "line": 692,
+        "commands": [],
+        "environment_names": [
+          "FASTAPI"
+        ],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/python-fastapi-web-server-security.md",
+        "line": 718,
+        "commands": [],
+        "environment_names": [
+          "FASTAPI"
+        ],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/python-fastapi-web-server-security.md",
+        "line": 745,
+        "commands": [],
+        "environment_names": [
+          "FASTAPI"
+        ],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/python-fastapi-web-server-security.md",
+        "line": 770,
+        "commands": [],
+        "environment_names": [
+          "FASTAPI"
+        ],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/python-fastapi-web-server-security.md",
+        "line": 801,
+        "commands": [],
+        "environment_names": [
+          "FASTAPI"
+        ],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/python-fastapi-web-server-security.md",
+        "line": 831,
+        "commands": [],
+        "environment_names": [
+          "FASTAPI"
+        ],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/python-fastapi-web-server-security.md",
+        "line": 854,
+        "commands": [],
+        "environment_names": [
+          "FASTAPI"
+        ],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/python-fastapi-web-server-security.md",
+        "line": 881,
+        "commands": [],
+        "environment_names": [
+          "FASTAPI"
+        ],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/python-flask-web-server-security.md",
+        "line": 13,
+        "commands": [],
+        "environment_names": [
+          "SECRET_KEY"
+        ],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/python-flask-web-server-security.md",
+        "line": 93,
+        "commands": [],
+        "environment_names": [
+          "SECRET_KEY"
+        ],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/python-flask-web-server-security.md",
+        "line": 155,
+        "commands": [],
+        "environment_names": [
+          "SECRET_KEY"
+        ],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/python-flask-web-server-security.md",
+        "line": 159,
+        "commands": [],
+        "environment_names": [
+          "SECRET_KEY"
+        ],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/python-flask-web-server-security.md",
+        "line": 160,
+        "commands": [],
+        "environment_names": [
+          "SECRET_KEY"
+        ],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/python-flask-web-server-security.md",
+        "line": 164,
+        "commands": [],
+        "environment_names": [
+          "SECRET_KEY"
+        ],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/python-flask-web-server-security.md",
+        "line": 165,
+        "commands": [],
+        "environment_names": [
+          "SECRET_KEY"
+        ],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/python-flask-web-server-security.md",
+        "line": 166,
+        "commands": [],
+        "environment_names": [
+          "SECRET_KEY"
+        ],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/python-flask-web-server-security.md",
+        "line": 169,
+        "commands": [],
+        "environment_names": [
+          "SECRET_KEY"
+        ],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/python-flask-web-server-security.md",
+        "line": 176,
+        "commands": [],
+        "environment_names": [
+          "SECRET_KEY"
+        ],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/python-flask-web-server-security.md",
+        "line": 181,
+        "commands": [],
+        "environment_names": [
+          "SECRET_KEY"
+        ],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "references/python-flask-web-server-security.md",
+        "line": 644,
+        "commands": [],
+        "environment_names": [
+          "SECRET_KEY"
+        ],
+        "evidence_class": "heuristic"
+      }
     ],
-    "environment_names": [],
+    "credentials": "not included",
+    "activation_status": "not projected"
+  },
+  "skill-connectivity-optimizer": {
+    "findings": [
+      {
+        "file": "SKILL.md",
+        "line": 23,
+        "commands": [
+          "python3"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "scripts/analyze_flow_map.py",
+        "line": 1,
+        "commands": [
+          "python3"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "scripts/validate_recommendation.py",
+        "line": 1,
+        "commands": [
+          "python3"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      }
+    ],
     "credentials": "not included",
     "activation_status": "not projected"
   },
   "skill-first-aid-kit": {
-    "commands": [
-      "python3"
+    "findings": [
+      {
+        "file": "SKILL.md",
+        "line": 13,
+        "commands": [
+          "python3"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "scripts/diagnose_skills.py",
+        "line": 1,
+        "commands": [
+          "python3"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      }
     ],
-    "environment_names": [],
+    "credentials": "not included",
+    "activation_status": "not projected"
+  },
+  "skill-librarian-cell": {
+    "findings": [],
+    "credentials": "not included",
+    "activation_status": "not projected"
+  },
+  "stage-git-skill-package": {
+    "findings": [
+      {
+        "file": "scripts/stage_package.py",
+        "line": 1,
+        "commands": [
+          "python3"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "scripts/stage_package.py",
+        "line": 30,
+        "commands": [
+          "git"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "scripts/stage_package.py",
+        "line": 38,
+        "commands": [
+          "git"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      }
+    ],
     "credentials": "not included",
     "activation_status": "not projected"
   },
   "sync-personal-skill-registry": {
-    "commands": [
-      "git",
-      "python3"
+    "findings": [
+      {
+        "file": "SKILL.md",
+        "line": 21,
+        "commands": [
+          "python3"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "SKILL.md",
+        "line": 27,
+        "commands": [
+          "python3"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "SKILL.md",
+        "line": 33,
+        "commands": [
+          "python3"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "SKILL.md",
+        "line": 42,
+        "commands": [
+          "git"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "scripts/sync_registry.py",
+        "line": 1,
+        "commands": [
+          "python3"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "scripts/sync_registry.py",
+        "line": 21,
+        "commands": [
+          "ffmpeg",
+          "gh",
+          "git",
+          "node",
+          "npm",
+          "npx",
+          "ollama",
+          "pdftotext",
+          "python3",
+          "yt-dlp"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "scripts/sync_registry.py",
+        "line": 37,
+        "commands": [
+          "git"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "scripts/sync_registry.py",
+        "line": 38,
+        "commands": [
+          "git"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "scripts/sync_registry.py",
+        "line": 86,
+        "commands": [
+          "python3"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "scripts/sync_registry.py",
+        "line": 167,
+        "commands": [
+          "git"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "scripts/sync_registry.py",
+        "line": 177,
+        "commands": [
+          "git"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "scripts/sync_registry.py",
+        "line": 200,
+        "commands": [
+          "git"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "scripts/sync_registry.py",
+        "line": 208,
+        "commands": [
+          "git"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "scripts/sync_registry.py",
+        "line": 211,
+        "commands": [
+          "git"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "scripts/sync_registry.py",
+        "line": 212,
+        "commands": [
+          "git"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "scripts/sync_registry.py",
+        "line": 216,
+        "commands": [
+          "git"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "scripts/sync_registry.py",
+        "line": 217,
+        "commands": [
+          "git"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "scripts/sync_registry.py",
+        "line": 220,
+        "commands": [
+          "git"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "scripts/sync_registry.py",
+        "line": 221,
+        "commands": [
+          "git"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "scripts/sync_registry.py",
+        "line": 225,
+        "commands": [
+          "git"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "scripts/sync_registry.py",
+        "line": 227,
+        "commands": [
+          "gh"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "scripts/sync_registry.py",
+        "line": 228,
+        "commands": [
+          "gh"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "scripts/sync_registry.py",
+        "line": 229,
+        "commands": [
+          "gh"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      }
     ],
-    "environment_names": [],
     "credentials": "not included",
     "activation_status": "not projected"
   },
   "system-update": {
-    "commands": [],
-    "environment_names": [],
+    "findings": [
+      {
+        "file": "scripts/validate_candidate.py",
+        "line": 1,
+        "commands": [
+          "python3"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      }
+    ],
     "credentials": "not included",
     "activation_status": "not projected"
   },
   "visualize-skill-flow": {
-    "commands": [
-      "node"
+    "findings": [
+      {
+        "file": "SKILL.md",
+        "line": 21,
+        "commands": [
+          "node"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "SKILL.md",
+        "line": 34,
+        "commands": [
+          "node"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "scripts/discover_skill_flow.py",
+        "line": 1,
+        "commands": [
+          "python3"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "scripts/render_flow.py",
+        "line": 1,
+        "commands": [
+          "python3"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "scripts/render_flow.py",
+        "line": 22,
+        "commands": [
+          "node"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "scripts/render_flow.py",
+        "line": 23,
+        "commands": [
+          "node"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "scripts/render_flow.py",
+        "line": 24,
+        "commands": [
+          "node"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "scripts/render_flow.py",
+        "line": 25,
+        "commands": [
+          "node"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "scripts/render_flow.py",
+        "line": 28,
+        "commands": [
+          "node"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "scripts/render_flow.py",
+        "line": 30,
+        "commands": [
+          "node"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "scripts/render_flow.py",
+        "line": 31,
+        "commands": [
+          "node"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      }
     ],
-    "environment_names": [],
     "credentials": "not included",
     "activation_status": "not projected"
   },
   "web-interface-refinement": {
-    "commands": [],
-    "environment_names": [],
+    "findings": [],
     "credentials": "not included",
     "activation_status": "not projected"
   },
   "wix-pxpress-operations": {
-    "commands": [],
-    "environment_names": [],
+    "findings": [
+      {
+        "file": "references/known-failures.md",
+        "line": 13,
+        "commands": [
+          "npm"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      }
+    ],
     "credentials": "not included",
     "activation_status": "not projected"
   },
   "wix-stage-preview-qa": {
-    "commands": [],
-    "environment_names": [],
+    "findings": [
+      {
+        "file": "scripts/sync_embedded_html.mjs",
+        "line": 1,
+        "commands": [
+          "node"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "scripts/sync_embedded_html.mjs",
+        "line": 2,
+        "commands": [
+          "node"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "scripts/sync_embedded_html.mjs",
+        "line": 3,
+        "commands": [
+          "node"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "scripts/sync_embedded_html.mjs",
+        "line": 4,
+        "commands": [
+          "node"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      }
+    ],
+    "credentials": "not included",
+    "activation_status": "not projected"
+  },
+  "workflow-architect-cell": {
+    "findings": [],
     "credentials": "not included",
     "activation_status": "not projected"
   },
   "youtube-to-skill": {
-    "commands": [
-      "ollama",
-      "python3",
-      "yt-dlp"
-    ],
-    "environment_names": [
-      "GEMINI_API_KEY"
+    "findings": [
+      {
+        "file": "SKILL.md",
+        "line": 16,
+        "commands": [
+          "python3"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "SKILL.md",
+        "line": 20,
+        "commands": [],
+        "environment_names": [
+          "GEMINI_API_KEY"
+        ],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "SKILL.md",
+        "line": 26,
+        "commands": [
+          "yt-dlp"
+        ],
+        "environment_names": [
+          "GEMINI_API_KEY"
+        ],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "SKILL.md",
+        "line": 30,
+        "commands": [
+          "python3",
+          "yt-dlp"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "SKILL.md",
+        "line": 31,
+        "commands": [
+          "ollama"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "SKILL.md",
+        "line": 37,
+        "commands": [
+          "python3"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "SKILL.md",
+        "line": 40,
+        "commands": [
+          "ollama"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "SKILL.md",
+        "line": 57,
+        "commands": [
+          "python3"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "scripts/analyze_youtube_profile.py",
+        "line": 1,
+        "commands": [
+          "python3"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "scripts/analyze_youtube_profile.py",
+        "line": 22,
+        "commands": [],
+        "environment_names": [
+          "GEMINI_API"
+        ],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "scripts/analyze_youtube_profile.py",
+        "line": 138,
+        "commands": [],
+        "environment_names": [
+          "GEMINI_API"
+        ],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "scripts/analyze_youtube_profile.py",
+        "line": 228,
+        "commands": [
+          "ollama"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "scripts/analyze_youtube_profile.py",
+        "line": 245,
+        "commands": [],
+        "environment_names": [
+          "GEMINI_API_KEY"
+        ],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "scripts/analyze_youtube_profile.py",
+        "line": 248,
+        "commands": [],
+        "environment_names": [
+          "GEMINI_API_KEY"
+        ],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "scripts/extract_video_skill.py",
+        "line": 1,
+        "commands": [
+          "python3"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "scripts/extract_video_skill.py",
+        "line": 20,
+        "commands": [],
+        "environment_names": [
+          "GEMINI_API"
+        ],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "scripts/extract_video_skill.py",
+        "line": 21,
+        "commands": [],
+        "environment_names": [
+          "OLLAMA_API"
+        ],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "scripts/extract_video_skill.py",
+        "line": 203,
+        "commands": [],
+        "environment_names": [
+          "GEMINI_API"
+        ],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "scripts/extract_video_skill.py",
+        "line": 252,
+        "commands": [],
+        "environment_names": [
+          "GEMINI_API_KEY"
+        ],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "scripts/extract_video_skill.py",
+        "line": 270,
+        "commands": [
+          "python3",
+          "yt-dlp"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "scripts/extract_video_skill.py",
+        "line": 342,
+        "commands": [],
+        "environment_names": [
+          "OLLAMA_API"
+        ],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "scripts/extract_video_skill.py",
+        "line": 355,
+        "commands": [],
+        "environment_names": [
+          "OLLAMA_API"
+        ],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "scripts/extract_video_skill.py",
+        "line": 562,
+        "commands": [
+          "ollama"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "scripts/extract_video_skill.py",
+        "line": 596,
+        "commands": [],
+        "environment_names": [
+          "GEMINI_API_KEY"
+        ],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "scripts/extract_video_skill.py",
+        "line": 610,
+        "commands": [],
+        "environment_names": [
+          "GEMINI_API_KEY"
+        ],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "scripts/extract_video_skill.py",
+        "line": 614,
+        "commands": [],
+        "environment_names": [
+          "GEMINI_API_KEY"
+        ],
+        "evidence_class": "heuristic"
+      },
+      {
+        "file": "scripts/extract_video_skill.py",
+        "line": 616,
+        "commands": [
+          "ollama"
+        ],
+        "environment_names": [],
+        "evidence_class": "heuristic"
+      }
     ],
     "credentials": "not included",
     "activation_status": "not projected"

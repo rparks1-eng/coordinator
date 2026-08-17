@@ -1,0 +1,4 @@
+interface:
+  display_name: "Skill Flow Router"
+  short_description: "Plan a minimal, human-gated skill route"
+  default_prompt: "Use -prompt-to-skill-flow to plan the safest minimal skill sequence for this request."

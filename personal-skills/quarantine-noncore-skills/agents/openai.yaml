@@ -1,0 +1,4 @@
+interface:
+  display_name: "Noncore Skill Quarantine"
+  short_description: "Plan or recoverably quarantine noncore skills"
+  default_prompt: "Use -noncore-skills to plan a reversible noncore skill quarantine."

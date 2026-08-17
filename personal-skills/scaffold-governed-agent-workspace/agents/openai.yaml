@@ -1,0 +1,4 @@
+interface:
+  display_name: "Governed Workspace Scaffold"
+  short_description: "Scaffold a governed local agent-workspace pilot"
+  default_prompt: "Use $scaffold-governed-agent-workspace to propose a local, human-reviewed agent-workspace pilot."

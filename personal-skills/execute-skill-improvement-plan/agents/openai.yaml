@@ -1,0 +1,4 @@
+interface:
+  display_name: "Execute Skill Improvement Plan"
+  short_description: "Compile and stage approved plan updates"
+  default_prompt: "Use $execute-skill-improvement-plan to compile selected audit-plan targets into inactive candidates and stage approved deliveries."
